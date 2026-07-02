@@ -1,0 +1,59 @@
+{
+  "version": "v2_reported_box",
+  "engine": "AutoDock Vina 1.2.7; reported box sizes (span-parsed, cap 40A); RDKit ETKDGv3 seed200; meeko",
+  "self_consistency": {
+    "n": 15,
+    "median_range": 0.04,
+    "max_range": 0.38
+  },
+  "tolerance": 2.0,
+  "qc_rule": "exclude rerun > -2 kcal/mol (no bound pose)",
+  "n_docked": 40,
+  "n_failed_excluded": 3,
+  "n_qc": 37,
+  "ALL": {
+    "n": 37,
+    "median": 0.54,
+    "within1": "23/37",
+    "within2": "29/37"
+  },
+  "E3": {
+    "n": 6,
+    "median": 0.24,
+    "within1": "5/6",
+    "within2": "6/6",
+    "CI": [
+      0.04,
+      1.07
+    ]
+  },
+  "E2": {
+    "n": 31,
+    "median": 0.59,
+    "within1": "18/31",
+    "within2": "23/31",
+    "CI": [
+      0.32,
+      1.44
+    ]
+  },
+  "by_target": {
+    "6LU7": {
+      "n": 35,
+      "median": 0.59,
+      "within1": "21/35",
+      "within2": "27/35"
+    },
+    "6Y2E": {
+      "n": 2,
+      "median": 0.42,
+      "within1": "2/2",
+      "within2": "2/2"
+    }
+  },
+  "E3_papers": [
+    "P0006",
+    "P0053"
+  ],
+  "note": "V2 uses reported box sizes (supersedes V1 default-25A). P0001 (6W63) added but failed to dock (no pose). P0053 baloxavir added (E3). E3-vs-E2 Mann-Whitney P=0.138 (not significant, underpowered n_E3=6)."
+}

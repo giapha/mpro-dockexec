@@ -1,0 +1,32 @@
+# ---- Copyright firewall: never commit publisher full texts ----
+corpus_fulltext/
+*/corpus_fulltext/
+**/corpus_fulltext/**
+*.pdf.txt
+raw_articles/
+
+# ---- Compute env / caches (recreate from environment.yml) ----
+.env
+env/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# ---- Docking scratch / large regenerable intermediates ----
+receptors/*.pdbqt
+ligands/
+provenance/
+*.dlg
+*.xml.gz
+smiles_cache*.csv
+*.log
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/

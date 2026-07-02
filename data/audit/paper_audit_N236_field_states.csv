@@ -1,0 +1,237 @@
+paper_idx,target_pdb,software,paper_e_class,blocking_field,n_ligand_claims,pdb_receptor,protein_chain,ligand_identifier,docking_software,software_version,grid_center,grid_size,search_effort,random_seed,receptor_preparation,ligand_preparation,protonation_tautomer,water_ion_handling,validation_redocking,code_artifacts,numeric_result
+1,9HAK,"Glide (SP), Schrodinger Maestro; MM-GBSA (OPLS_4, VSGB solvent); LigPrep; Protein Preparation Wizard",E1,grid_center,4,reported,missing,reported,reported,missing,missing,missing,missing,missing,reported,reported,partial,partial,reported,missing,reported
+6,8DZ2,AutoDock Vina v1.1.2 within PyRx 0.8,E3,,3,reported,missing,reported,reported,reported,partial,reported,reported,missing,reported,reported,partial,partial,reported,missing,reported
+15,7VH8,AutoDock Vina,E3,,2,reported,missing,reported,reported,missing,reported,reported,reported,missing,reported,reported,partial,reported,missing,missing,reported
+19,"7AQE, 7AVD, 7JU7, 7L14, 7LTJ","Glide (Maestro, Schrodinger) - HTVS/SP/XP ensemble docking",E1,grid_size,0,reported,missing,reported,reported,missing,partial,missing,partial,missing,partial,partial,missing,missing,partial,partial,missing
+21,6W63,"Schrödinger 2021-2 (Glide Virtual Screening Workflow HTVS/SP/XP, Induced Fit Docking, Covalent Docking; Prime MM-GBSA)",E3,,0,reported,missing,partial,reported,reported,partial,reported,reported,missing,reported,reported,reported,reported,reported,missing,partial
+31,not reported,fastDRH (docking + MM/PB(GB)SA GB8 rescoring); underlying docking engine not named,E1,pdb_receptor,4,missing,missing,reported,reported,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,reported
+38,6LU7,AutoDock Vina,E1,grid_center,12,reported,missing,partial,reported,reported,missing,reported,reported,missing,reported,reported,partial,reported,partial,partial,reported
+39,6Y2F,not reported,E1,docking_software,0,reported,missing,partial,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing
+49,6LU7,AutoDock Vina (AutoDock Tools v1.5.6),E3,,5,reported,missing,reported,reported,reported,reported,reported,reported,reported,reported,reported,reported,reported,reported,missing,reported
+52,"8DZB (Mpro), 7TZJ (PLpro)",AutoDock4 / AutoDockTools (Version 1.5.6),E1,grid_center,3,reported,missing,reported,reported,partial,missing,partial,missing,missing,reported,reported,missing,partial,missing,missing,reported
+53,"not reported (spike RBD, Mpro, HPSE; no PDB IDs)",Vina-Carb (structures generated with GLYCAM),E1,grid_center,0,missing,missing,partial,reported,missing,missing,missing,missing,missing,missing,partial,missing,missing,missing,missing,missing
+55,"Not specified (ASAP/Polaris challenge-provided SARS-CoV-2 Mpro and MERS-CoV Mpro crystal structures, referenced via ""protein label"" column in Table S1; no PDB accession in main text)","Glide (Schrödinger Maestro v11.2, SP mode) and AutoDock Vina v1.1.2; plus FlexS, AlphaFold3, Boltz-2, DiffDock, Gnina",E2,,1,partial,reported,reported,reported,reported,partial,missing,partial,missing,reported,reported,reported,reported,reported,partial,partial
+56,6Y2F,AutoDockTools 1.5.7 (docking/redocking); Discovery Studio + Maestro Schrodinger for visualization,E2,,2,reported,missing,reported,reported,reported,reported,reported,missing,missing,missing,missing,missing,missing,reported,missing,reported
+57,6W63,"Glide (XP mode), Maestro/Schrödinger",E3,,3,reported,missing,reported,reported,reported,partial,partial,reported,missing,reported,reported,reported,partial,reported,missing,reported
+59,6LU7,AutoDock Vina v1.5.7,E3,,8,reported,partial,reported,reported,reported,reported,reported,reported,missing,partial,reported,partial,partial,reported,missing,reported
+65,6LU7,"AutoDock Vina 1.2.0 (via SwissDock 2024, ""Attracting Cavities"")",E1,grid_center,9,reported,missing,partial,reported,reported,missing,missing,reported,missing,reported,partial,partial,reported,reported,missing,reported
+66,6LU7 (Mpro); 7CJM (PLpro); 7T9L (Spro),Discovery Studio 2020 (CDOCKER protocol),E1,grid_size,2,reported,missing,reported,reported,reported,partial,missing,partial,missing,reported,partial,missing,partial,reported,missing,reported
+70,7VLP,AutoDock 4.2.6,E3,,4,reported,missing,reported,reported,reported,reported,reported,reported,missing,reported,reported,partial,reported,reported,missing,reported
+78,"6LU7, 6M03, 6Y2G, 5R7Y",Glide SP (Schrodinger Maestro 2019-1),E1,grid_center,0,reported,missing,reported,reported,reported,missing,missing,missing,missing,reported,reported,reported,partial,missing,missing,partial
+79,6LU7 (Mpro); 6W4H (nsp10); 7BV2 (RdRp),MOE 14.0 (Molecular Operating Environment),E1,grid_center,1,reported,partial,reported,reported,reported,missing,missing,reported,missing,reported,reported,partial,partial,reported,partial,partial
+82,6LU7,Schrödinger Glide (Maestro; LigPrep; Protein Preparation Wizard); HTVS precision,E1,grid_center,10,reported,missing,reported,reported,missing,missing,missing,partial,missing,reported,reported,missing,reported,missing,partial,reported
+85,"6lu7 (Mpro); also 6yef (Mpro), 6vsb (S), 6m71 (RdRp), 1r42 (ACE2)",OpenEye Scientific Software version 2.2.5,E1,grid_center,1,reported,missing,reported,reported,reported,missing,missing,missing,missing,missing,missing,partial,missing,reported,missing,missing
+94,6LU7,AutoDock Vina + LeDock,E2,,5,reported,missing,reported,reported,reported,partial,partial,missing,missing,reported,reported,partial,partial,missing,missing,reported
+97,6LU7,MOE (Version 2022),E2,,6,reported,reported,reported,reported,reported,missing,missing,partial,missing,reported,reported,partial,reported,reported,missing,reported
+104,5N5O,AutoDock Vina 1.1.2 (via PyRx),E3,,6,reported,missing,reported,reported,reported,reported,reported,reported,missing,partial,reported,missing,missing,reported,missing,reported
+107,"7NIO, 5X29, 7B3O, 2GTH, 5YNB, 5CPO/9CPO, 7Z4S (SARS-CoV-2 panel incl. Mpro/3CLpro; PDB labels internally inconsistent)",AutoDock Vina 1.2.0 (via SwissDock platform; prep with AutoDockTools v1.5.7),E1,grid_center,7,reported,missing,reported,reported,reported,missing,reported,reported,missing,reported,reported,reported,reported,reported,missing,reported
+379,6LU7,AutoDock Vina (via YASARA),E2,,54,reported,missing,reported,reported,reported,partial,partial,reported,missing,reported,reported,missing,missing,reported,missing,reported
+396,6LU7,Glide (Schrodinger Suite),E2,,10,reported,reported,reported,reported,reported,partial,missing,reported,missing,reported,reported,reported,partial,partial,missing,reported
+400,6LU7,MOE,E2,,10,reported,partial,reported,reported,missing,missing,missing,missing,missing,partial,partial,partial,reported,missing,missing,reported
+512,6LU7,AutoDock 4.2,E2,,16,reported,missing,reported,reported,reported,reported,reported,reported,missing,partial,partial,missing,reported,missing,missing,reported
+504,6LU7,AutoDock4+AutoDock Vina,E1,grid_center,1,reported,partial,reported,reported,partial,missing,reported,missing,missing,reported,reported,missing,reported,partial,missing,reported
+441,"5R84,6WQF",AutoDock-GPU,E4,,0,reported,missing,reported,reported,partial,reported,reported,reported,missing,reported,reported,reported,reported,reported,reported,reported
+482,"multiple (119 PDB structures, list in Supplementary Table S1; examples: 5REH, 5RE9, 5RGK, 7AVD, 5R82, 5RG0, 7LFP, 5RF0)",GOLD 2020; Glide (Schrodinger 2021.3); PLANTS,E1,grid_size,0,partial,missing,partial,reported,partial,partial,missing,partial,missing,reported,partial,reported,reported,reported,missing,reported
+178,6LU7,AutoDock Vina,E2,,6,reported,missing,reported,reported,reported,missing,reported,partial,missing,partial,reported,partial,missing,reported,missing,reported
+139,7JSU,AutoDock Vina,E2,,6,reported,reported,reported,reported,reported,reported,reported,partial,missing,partial,partial,missing,reported,missing,missing,reported
+119,7CWC,CovDock (Glide/Schrödinger),E2,,3,reported,missing,reported,reported,missing,reported,missing,missing,missing,reported,reported,reported,reported,missing,partial,reported
+322,6LU7,MOE,E2,,5,reported,reported,partial,reported,reported,missing,missing,partial,missing,reported,reported,missing,reported,reported,missing,reported
+267,6Y84,MOE,E2,,34,reported,reported,partial,reported,reported,reported,partial,partial,missing,reported,partial,reported,reported,partial,missing,reported
+508,6M2N,AutoDock Vina,E2,,18,reported,missing,reported,reported,missing,missing,missing,missing,missing,partial,partial,missing,partial,missing,missing,reported
+271,6LU7,AutoDock VINA (PyRx),E2,,15,reported,missing,partial,reported,missing,reported,reported,reported,missing,partial,reported,missing,reported,missing,missing,reported
+436,6M2N,DockThor,E2,,10,reported,reported,reported,reported,missing,partial,missing,missing,missing,reported,reported,reported,reported,missing,missing,reported
+477,6LU7,AutoDock 4.2,E1,grid_center,9,reported,missing,reported,reported,reported,missing,partial,partial,missing,reported,reported,missing,reported,missing,missing,reported
+532,6LU7,AutoDock v4.2.6,E1,grid_center,11,reported,missing,reported,reported,reported,missing,missing,reported,missing,partial,partial,missing,missing,reported,missing,reported
+498,6LU7,Autodock Vina,E1,grid_center,10,reported,missing,reported,reported,partial,missing,missing,missing,missing,reported,partial,missing,reported,missing,missing,reported
+162,6LU7,AutoDock Vina,E1,grid_size,6,reported,partial,reported,reported,missing,partial,missing,partial,missing,reported,reported,missing,partial,missing,missing,reported
+533,6LU7,AutoDock Vina,E2,,27,reported,missing,reported,reported,partial,reported,reported,reported,missing,reported,reported,missing,reported,reported,missing,reported
+499,6W63,"Autodock GPU, Glide SP, FRED, ICM, QuickVina2",E2,,8,reported,missing,reported,reported,partial,reported,partial,partial,missing,reported,reported,reported,partial,partial,reported,reported
+564,6YB7,AutoDock Vina,E1,grid_center,47,reported,missing,partial,reported,reported,missing,missing,missing,missing,partial,partial,missing,reported,missing,missing,reported
+437,6LU7,AutoDock Vina (PyRx 0.8),E2,,11,reported,missing,partial,reported,reported,reported,partial,reported,missing,reported,reported,missing,reported,reported,missing,reported
+319,6LU7,MOE,E1,grid_center,17,reported,missing,partial,reported,reported,missing,missing,partial,missing,reported,reported,reported,reported,missing,missing,reported
+460,6LU7,smina,E2,,2,reported,missing,partial,reported,missing,missing,missing,reported,missing,missing,reported,missing,missing,missing,missing,reported
+227,6LU7,MOE 2015,E1,grid_center,20,reported,partial,partial,reported,reported,missing,missing,missing,missing,partial,partial,missing,partial,partial,missing,reported
+159,6LU7,unknown,E1,docking_software,10,reported,missing,reported,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,reported
+323,6LU7,AutoDock Vina (PyRx),E2,,13,reported,missing,reported,reported,reported,reported,missing,missing,missing,reported,partial,partial,reported,missing,missing,reported
+548,5REB,AutoDock Vina (PyRx),E2,,12,reported,missing,reported,reported,missing,missing,missing,partial,missing,reported,reported,missing,reported,missing,missing,reported
+118,7ZB7,AutoDock Vina,E1,grid_center,9,reported,missing,partial,reported,missing,missing,missing,missing,missing,reported,reported,reported,reported,missing,missing,reported
+246,7CB7,"Schrödinger Suite (Glide XP + Covalent Docking, Prime MM-GBSA)",E1,grid_size,9,reported,missing,reported,reported,reported,partial,missing,partial,missing,reported,reported,reported,reported,reported,missing,reported
+303,7RFS,AutoDock Vina,E2,,7,reported,missing,reported,reported,missing,reported,reported,partial,missing,partial,reported,reported,missing,partial,missing,reported
+568,6LU7,"AutoDock Vina, Glide, rDock",E2,,10,reported,reported,reported,reported,partial,reported,reported,partial,missing,reported,reported,partial,reported,reported,partial,reported
+211,6Y2E/6Y2G,AutoDock Vina / DockThor,E2,,2,reported,reported,reported,reported,reported,reported,reported,missing,missing,reported,reported,reported,partial,missing,missing,reported
+342,6LU7,MOE 2014.09,E1,grid_center,15,reported,missing,partial,reported,reported,missing,missing,partial,missing,reported,partial,partial,missing,missing,missing,reported
+196,7C6S,AutoDock Tools / DiffDock / DynamicBind / MolProphet,E2,,3,reported,missing,reported,reported,partial,partial,reported,missing,missing,reported,reported,missing,reported,missing,missing,reported
+529,6YNQ,AutoDock Vina,E2,,8,reported,missing,partial,reported,missing,reported,reported,reported,missing,reported,partial,missing,partial,missing,missing,reported
+483,6Y84,AutoDock,E1,grid_center,11,reported,partial,reported,reported,reported,missing,partial,partial,missing,reported,partial,missing,reported,missing,missing,reported
+179,6WTT,Glide (Schrödinger Maestro),E2,,5,reported,reported,reported,reported,reported,reported,missing,partial,missing,reported,reported,reported,reported,reported,missing,reported
+250,6LU7,AutoDock Vina,E2,,8,reported,missing,reported,reported,missing,reported,partial,reported,missing,reported,reported,partial,reported,reported,missing,reported
+315,7L0D,AutoDock Vina,E2,,3,reported,missing,reported,reported,missing,reported,reported,partial,missing,reported,reported,missing,reported,partial,missing,reported
+440,6Y2F,AutoDock Vina,E2,,12,reported,partial,reported,reported,reported,reported,reported,partial,missing,reported,partial,missing,missing,missing,missing,reported
+339,6LU7,AutoDock Vina,E2,,238,reported,partial,reported,reported,reported,partial,partial,reported,missing,reported,reported,missing,missing,missing,missing,reported
+513,6LU7,AutoDock Vina,E2,,4,reported,missing,reported,reported,missing,partial,reported,missing,missing,partial,partial,missing,missing,missing,missing,reported
+285,6LU7,AutoDock 4.2,E2,,5,reported,missing,partial,reported,reported,missing,reported,reported,missing,partial,partial,missing,missing,missing,missing,reported
+114,6M0K,DockThor,E1,grid_size,5,reported,missing,reported,reported,partial,partial,missing,reported,missing,reported,reported,reported,reported,reported,missing,reported
+544,6LU7,AutoDock 4.2,E1,grid_center,5,reported,reported,partial,reported,reported,missing,missing,missing,missing,partial,partial,missing,missing,missing,missing,reported
+401,5R7Y,AutoDock v4.2,E2,,4,reported,missing,reported,reported,reported,reported,reported,reported,missing,reported,reported,partial,reported,missing,missing,reported
+378,6LU7,AutoDock4,E2,,15,reported,partial,reported,reported,partial,reported,reported,partial,missing,missing,missing,missing,missing,reported,missing,reported
+397,6LU7,AutoDock Vina + Hex,E1,grid_center,12,reported,missing,reported,reported,missing,missing,missing,missing,missing,partial,partial,missing,missing,missing,missing,reported
+236,6M2N,CDOCKER (Discovery Studio),E1,grid_center,2,reported,missing,partial,reported,missing,partial,partial,missing,missing,partial,partial,missing,partial,reported,missing,reported
+324,6LU7,AutoDock Vina,E2,,12,reported,missing,reported,reported,missing,reported,reported,missing,missing,reported,reported,missing,reported,reported,missing,reported
+332,7BRO,AutoDock 4.2,E1,grid_center,9,reported,missing,reported,reported,reported,partial,partial,missing,missing,reported,reported,missing,reported,partial,missing,reported
+277,5RG1,Glide (Schrodinger),E2,,32,reported,partial,reported,reported,partial,reported,missing,missing,missing,reported,reported,partial,reported,reported,missing,reported
+109,6LU7,AutoDock Vina,E1,grid_center,15,reported,partial,reported,reported,reported,missing,partial,reported,missing,partial,reported,missing,missing,missing,missing,reported
+559,6LZE,"AutoDock Vina, AutoDock4.2",E2,,5,reported,partial,reported,reported,partial,reported,reported,reported,missing,reported,reported,missing,partial,reported,reported,reported
+365,6M2N,AutoDock 4.2,E2,,8,reported,reported,reported,reported,reported,reported,partial,partial,missing,reported,reported,reported,reported,reported,missing,reported
+488,6Y2E,AutoDock (AutoDockTools 1.5.6),E1,grid_center,24,reported,partial,reported,reported,reported,missing,missing,reported,missing,reported,reported,missing,reported,missing,missing,reported
+172,6XHM,AutoDock4,E1,grid_size,7,reported,missing,reported,reported,reported,reported,partial,reported,missing,reported,reported,missing,partial,reported,missing,reported
+349,6LU7,AutoDock Vina,E2,,13,reported,missing,partial,reported,missing,reported,reported,missing,missing,partial,partial,missing,reported,missing,missing,reported
+426,7L14,GOLD Suite v.5.3,E2,,11,reported,missing,partial,reported,reported,partial,reported,reported,missing,reported,partial,missing,missing,reported,partial,reported
+133,6WTJ,MOE,E1,grid_center,11,reported,missing,reported,reported,reported,missing,missing,partial,missing,reported,reported,reported,reported,missing,missing,reported
+563,6M2N,AutoDock Vina,E1,grid_center,17,reported,missing,reported,reported,missing,missing,missing,missing,missing,partial,partial,missing,missing,missing,missing,reported
+471,7JYC,AutoDock Vina / AutoDock4,E2,,16,reported,missing,partial,reported,reported,reported,reported,reported,missing,reported,reported,reported,reported,partial,missing,reported
+308,6M03,AutoDock Vina (PyRx 0.8),E2,,10,reported,missing,partial,reported,reported,reported,reported,missing,missing,partial,reported,missing,reported,missing,missing,reported
+543,7BUY,AutoDock Vina via PyRx,E2,,9,reported,partial,reported,reported,reported,missing,missing,reported,missing,reported,reported,missing,reported,missing,missing,reported
+328,7TVX,CB-Dock2,E1,grid_center,6,reported,partial,reported,reported,missing,missing,missing,missing,missing,reported,partial,missing,partial,missing,missing,reported
+514,6LU7,AutoDock Vina,E2,,6,reported,missing,partial,reported,reported,reported,reported,missing,missing,reported,partial,missing,reported,reported,missing,reported
+451,7L0D,AutoDock Vina 1.1.2,E3,,19,reported,reported,reported,reported,reported,reported,reported,reported,missing,reported,reported,reported,reported,partial,missing,reported
+294,7VH8,AutoDock Vina,E4,,20,reported,missing,reported,reported,reported,reported,reported,reported,missing,reported,reported,partial,reported,reported,missing,reported
+152,6Y2G,MOE (Molecular Operating Environment),E1,grid_center,11,partial,missing,reported,reported,reported,missing,missing,partial,missing,reported,missing,partial,missing,reported,missing,reported
+502,6LU7,Molsoft ICM-Pro,E2,,9,reported,missing,reported,reported,reported,missing,missing,reported,missing,reported,partial,reported,reported,missing,missing,reported
+447,7L13,AutoDock4.2.6,E2,,13,reported,missing,reported,reported,reported,reported,reported,reported,missing,reported,reported,reported,reported,reported,missing,reported
+386,6lu7,AutoDock Vina (PyRx 0.8),E2,,9,reported,missing,reported,reported,reported,missing,partial,missing,missing,reported,reported,missing,missing,missing,missing,reported
+191,7JWR,Glide,E2,,3,reported,missing,partial,reported,reported,partial,reported,partial,missing,reported,reported,reported,reported,reported,missing,reported
+484,6LU7,AutoDock Vina,E2,,2,reported,missing,reported,reported,reported,partial,reported,partial,missing,reported,reported,missing,reported,missing,missing,reported
+200,6LU7,Discovery Studio 2020 (CDOCKER),E2,,2,reported,missing,reported,reported,reported,missing,missing,missing,missing,reported,partial,missing,reported,partial,missing,reported
+579,5RE4,AutoDock Vina (via PyRx),E2,,84,reported,missing,reported,reported,missing,missing,partial,reported,missing,partial,reported,missing,missing,missing,missing,reported
+216,8FY7,Glide (Schrödinger),E2,,6,reported,missing,reported,reported,reported,missing,missing,reported,missing,reported,reported,reported,reported,partial,missing,reported
+241,6LU7,Ledock,E2,,10,reported,missing,reported,reported,partial,reported,reported,missing,missing,partial,partial,missing,reported,missing,missing,reported
+492,6Y2E,AutoDock-Vina,E1,grid_center,58,reported,partial,reported,reported,reported,missing,missing,missing,missing,reported,reported,missing,reported,missing,missing,reported
+538,,AutoDock Vina v1.1.2,E1,pdb_receptor,69,missing,missing,reported,reported,reported,reported,reported,missing,missing,partial,partial,missing,missing,missing,missing,reported
+169,7CAM,AutoDock,E2,,2,reported,partial,reported,reported,partial,reported,missing,reported,missing,reported,reported,missing,reported,missing,missing,reported
+539,6LU7,AutoDock Vina (via PyRx),E1,grid_center,31,reported,missing,reported,reported,missing,missing,missing,partial,missing,reported,reported,missing,reported,missing,missing,reported
+305,7NT3,AutoDock Vina,E2,,3,reported,missing,reported,reported,partial,missing,partial,partial,missing,reported,reported,reported,partial,missing,missing,reported
+217,5RG1,Molegro Virtual Docker (MVD),E1,grid_center,11,reported,missing,reported,reported,reported,missing,partial,reported,missing,partial,reported,partial,partial,reported,missing,reported
+352,6LU7,PyRx (AutoDock Vina),E2,,10,reported,reported,partial,reported,partial,missing,missing,partial,missing,reported,reported,missing,reported,partial,missing,reported
+128,6LU7,AutoDock 4.2.6,E1,grid_size,4,reported,missing,reported,reported,reported,partial,missing,missing,missing,partial,missing,missing,missing,reported,missing,reported
+344,6LU7,AutoDock Vina,E2,,22,reported,missing,reported,reported,reported,reported,reported,missing,missing,reported,reported,reported,reported,missing,missing,reported
+485,6LU7,AutoDock Vina,E2,,5,reported,missing,reported,reported,partial,missing,missing,missing,missing,partial,reported,missing,missing,missing,missing,reported
+256,7E19,AutoDock Vina,E2,,1,reported,missing,reported,reported,partial,missing,missing,partial,missing,partial,partial,missing,missing,reported,missing,reported
+313,6LU7,AutoDock Vina,E2,,15,reported,reported,reported,reported,missing,reported,reported,partial,missing,reported,reported,missing,reported,partial,missing,reported
+153,5R7Z,AutoDock Vina,E1,grid_center,1,reported,missing,partial,reported,missing,missing,missing,missing,missing,missing,partial,missing,missing,missing,missing,reported
+503,7JY,AutoDock Vina (PyRx 0.8),E2,,10,reported,missing,reported,reported,reported,missing,partial,missing,missing,reported,reported,missing,partial,reported,missing,reported
+446,6XQT,"AutoDock Vina; GOLD Suite (ChemPLP, GoldScore)",E2,,7,reported,reported,reported,reported,missing,partial,partial,partial,missing,reported,reported,reported,reported,reported,missing,reported
+329,7L11,MOE,E2,,13,reported,missing,reported,reported,reported,partial,missing,reported,missing,reported,reported,reported,reported,missing,missing,reported
+112,6ZRU,AutoDock 4.2,E1,grid_center,3,reported,missing,reported,reported,reported,missing,reported,reported,missing,reported,reported,missing,reported,missing,missing,reported
+542,6M03,MOE,E1,grid_center,12,reported,missing,reported,reported,reported,missing,missing,partial,missing,partial,partial,missing,reported,missing,missing,reported
+391,6LU7,AutoDock Vina,E1,grid_center,24,reported,partial,reported,reported,missing,missing,reported,reported,missing,reported,reported,missing,missing,missing,missing,reported
+470,7K3T,AutoDock 4.2,E2,,1,partial,missing,reported,reported,reported,reported,reported,reported,missing,partial,missing,missing,missing,missing,missing,reported
+535,6YB7,AutoDock Vina / AutoDock-GPU,E2,,15,reported,partial,reported,reported,reported,partial,partial,reported,missing,reported,reported,partial,reported,reported,partial,reported
+132,7JSU,AutoDock Vina,E2,,5,reported,missing,reported,reported,reported,reported,reported,partial,missing,reported,reported,partial,reported,missing,missing,reported
+562,6WQF,"AutoDock 4.0, pardock, patchdock, HADDOCK2.4, firedock",E1,grid_center,3,reported,missing,partial,reported,partial,missing,missing,missing,missing,partial,partial,partial,partial,missing,missing,reported
+348,5RE4,AutoDock Vina,E1,grid_center,5,reported,missing,reported,reported,missing,missing,missing,missing,missing,reported,reported,missing,partial,partial,missing,reported
+431,6LU7,Glide (Schrödinger),E2,,10,reported,missing,partial,reported,missing,missing,missing,reported,missing,reported,reported,missing,reported,missing,missing,reported
+466,6WQF,AutoDock4.2.6,E3,,10,reported,partial,reported,reported,reported,reported,reported,reported,missing,reported,reported,partial,reported,missing,missing,reported
+173,7JVZ,AutoDock Vina,E1,grid_center,3,reported,missing,reported,reported,reported,missing,reported,partial,missing,missing,missing,missing,missing,partial,missing,reported
+523,6y2e,"AutoDock Vina, rDock, LeDock, Smina (dockECR consensus)",E2,,8,reported,partial,partial,reported,reported,partial,reported,reported,missing,reported,partial,partial,reported,missing,reported,partial
+221,6M2N,,E1,docking_software,31,reported,missing,partial,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,reported
+108,AlphaFold3 model (no PDB ID),AutoDock Vina,E1,pdb_receptor,4,partial,reported,partial,reported,missing,reported,reported,reported,missing,reported,reported,reported,partial,missing,reported,partial
+558,6LU7,Glide (Schrödinger suite 2020-3),E2,,5,reported,missing,reported,reported,reported,missing,missing,missing,missing,reported,reported,reported,reported,missing,missing,reported
+299,6LU7,AutoDock Vina (via PyRx),E2,,40,reported,partial,reported,reported,partial,reported,reported,missing,missing,partial,partial,missing,reported,reported,missing,reported
+149,6M0K,AutoDock Vina,E1,grid_center,3,reported,missing,reported,reported,reported,missing,partial,reported,missing,reported,reported,missing,reported,missing,missing,reported
+519,6LU7,AutoDock Vina (PyRx 0.8),E2,,10,reported,missing,reported,reported,reported,missing,reported,missing,missing,reported,reported,missing,partial,reported,missing,reported
+536,7BUY,AutoDock 4.2,E2,,3,reported,missing,reported,reported,reported,missing,partial,reported,missing,reported,reported,reported,reported,reported,missing,reported
+561,6LU7,AutoDock Vina,E2,,14,reported,missing,reported,reported,missing,reported,reported,reported,missing,reported,reported,partial,reported,missing,missing,reported
+424,6LU7,CB-Dock,E2,,25,reported,reported,reported,reported,missing,reported,reported,missing,missing,reported,reported,missing,partial,missing,missing,reported
+127,5R80,Glide,E1,grid_center,39,reported,missing,reported,reported,missing,missing,missing,partial,missing,reported,reported,reported,reported,missing,missing,reported
+259,6M2N,Schrodinger Glide,E1,grid_center,10,reported,missing,partial,reported,missing,missing,missing,partial,missing,partial,partial,missing,missing,partial,missing,reported
+520,6LU7,Glide,E1,grid_center,6,reported,missing,reported,reported,partial,missing,missing,reported,missing,reported,reported,reported,reported,partial,missing,reported
+388,7C6U,Glide (Schrödinger Suite 2020-3),E1,grid_size,10,reported,missing,reported,reported,reported,partial,missing,partial,missing,reported,reported,partial,reported,missing,missing,reported
+222,6Y2E,AutoDock Vina,E1,grid_center,3,reported,missing,partial,reported,reported,missing,missing,partial,missing,reported,reported,reported,missing,missing,missing,reported
+330,6LU7,AutoDock 4.2.6,E2,,4,reported,missing,reported,reported,reported,missing,partial,reported,missing,partial,reported,partial,missing,missing,missing,reported
+326,7kx5,AutoDock Vina (PyRx v0.8),E1,grid_center,1,reported,missing,partial,reported,partial,missing,partial,reported,missing,reported,reported,partial,partial,missing,missing,reported
+408,6lu7,AutoDock,E2,,84,reported,missing,partial,reported,reported,reported,reported,missing,missing,reported,reported,missing,reported,reported,missing,reported
+185,6LU7,Glide (Schrödinger Maestro),E2,,10,reported,missing,reported,reported,reported,partial,missing,reported,missing,reported,reported,reported,reported,missing,missing,reported
+582,6Y84,QVina2,E2,,7,reported,partial,partial,reported,partial,missing,missing,partial,missing,reported,reported,missing,reported,missing,missing,reported
+351,7L0D,MOE,E1,grid_center,6,reported,missing,reported,reported,missing,missing,missing,missing,missing,reported,reported,partial,reported,missing,missing,reported
+347,6LU7,Discovery Studio (DS-Client v18.1.100.18065),E2,,4,reported,missing,reported,reported,reported,partial,reported,partial,missing,reported,reported,partial,reported,reported,missing,reported
+310,6lu7,PyRx/AutoDock Vina,E1,grid_center,12,reported,missing,reported,reported,missing,missing,missing,missing,missing,partial,partial,missing,partial,missing,missing,reported
+557,6LU7,AutoDock Vina,E2,,29,reported,missing,reported,reported,missing,missing,missing,missing,missing,partial,partial,missing,reported,missing,missing,reported
+384,6LU7,AutoDock Vina,E3,,61,reported,missing,reported,reported,reported,reported,reported,partial,missing,reported,reported,partial,missing,missing,missing,reported
+150,7CWB,AutoDock Vina,E2,,7,reported,reported,reported,reported,reported,reported,reported,reported,missing,reported,reported,reported,reported,missing,missing,reported
+279,6LU7,Glide (Schrodinger Maestro),E2,,20,reported,missing,reported,reported,missing,missing,missing,partial,missing,reported,reported,partial,reported,partial,missing,reported
+280,6yb7,DockThor,E2,,38,reported,partial,reported,reported,missing,reported,missing,partial,missing,partial,partial,missing,partial,reported,missing,reported
+404,6LZE,Discovery Studio 4.5 (C-Docker),E1,grid_center,45,reported,missing,partial,reported,reported,missing,missing,partial,missing,partial,partial,partial,partial,missing,missing,reported
+393,6LU7,AutoDock Vina,E2,,4,partial,reported,reported,reported,missing,reported,reported,reported,missing,reported,reported,missing,missing,partial,partial,reported
+110,7EN9,AutoDock Vina,E2,,5,reported,missing,reported,reported,partial,reported,reported,reported,missing,partial,reported,missing,reported,reported,missing,reported
+540,6LU7,AutoDock Vina,E2,,10,reported,missing,reported,reported,missing,missing,partial,reported,missing,reported,reported,partial,reported,reported,partial,reported
+281,6LU7,AutoDock Vina,E2,,7,reported,partial,reported,reported,missing,partial,reported,reported,missing,reported,reported,missing,reported,missing,missing,reported
+278,6M2N,Glide (Schrödinger Maestro v11.2),E2,,9,reported,missing,reported,reported,reported,partial,reported,partial,missing,reported,partial,missing,reported,missing,missing,reported
+556,6LU7,AutoDock 4.2,E2,,53,reported,reported,reported,reported,reported,partial,partial,partial,missing,reported,reported,missing,reported,missing,missing,reported
+106,,CCDC GOLD Suite V5.3,E1,pdb_receptor,5,missing,missing,partial,reported,reported,missing,missing,reported,missing,partial,missing,missing,partial,missing,missing,partial
+311,6LU7,AutoDock 4.0,E2,,4,reported,partial,reported,reported,reported,reported,missing,reported,missing,partial,partial,missing,missing,missing,missing,reported
+487,6Y2F,CDOCKER (Discovery Studio v18),E2,,1,reported,missing,partial,reported,reported,missing,partial,reported,missing,reported,reported,missing,reported,missing,missing,reported
+192,6W63,SwissDock,E2,,11,reported,missing,reported,reported,missing,missing,partial,missing,missing,reported,reported,partial,reported,partial,missing,reported
+346,6LU7,AutoDock Vina,E2,,4,reported,missing,reported,reported,missing,reported,missing,missing,missing,reported,partial,missing,missing,partial,missing,reported
+203,6LU7,MOE2022.02,E2,,10,reported,missing,reported,reported,reported,missing,missing,partial,missing,partial,missing,missing,missing,reported,missing,reported
+242,6M03,MVD,E2,,16,reported,partial,partial,reported,partial,missing,partial,reported,missing,partial,reported,missing,reported,missing,missing,reported
+409,6lu7,AutoDock,E2,,10,reported,partial,reported,reported,missing,partial,missing,partial,missing,reported,reported,missing,reported,reported,missing,reported
+370,6LU7,AutoDock Vina (PyRx 0.8),E2,,5,reported,missing,reported,reported,partial,reported,reported,missing,missing,partial,partial,missing,missing,missing,missing,reported
+327,6LU7,SwissDock/AutoDock4,E1,grid_center,3,reported,missing,partial,reported,partial,missing,missing,partial,missing,partial,reported,partial,missing,missing,missing,reported
+448,6Y2F,AutoDock Vina,E1,grid_center,6,reported,missing,reported,reported,missing,missing,missing,missing,missing,reported,partial,missing,reported,reported,missing,reported
+274,6M2N,GOLD,E2,,5,reported,missing,reported,reported,missing,partial,reported,missing,missing,reported,reported,reported,reported,reported,missing,reported
+331,7CA8,Glide XP (Schrödinger Suite 2017-1),E1,grid_center,5,reported,missing,partial,reported,reported,partial,reported,partial,missing,reported,reported,reported,reported,reported,missing,reported
+389,6Y2G,AutoDock Vina,E2,,15,reported,reported,partial,reported,reported,reported,reported,partial,missing,reported,reported,missing,missing,reported,missing,reported
+366,6LU7,AutoDockVina,E2,,11,reported,missing,reported,reported,reported,partial,partial,reported,missing,reported,reported,missing,reported,partial,missing,reported
+576,"7VLP,7TE0,7RFS,7T43,7DPU,7DDC,6WNP,5RHE",AutoDock Vina + ICM-Pro,E2,,7,reported,missing,reported,reported,partial,partial,partial,reported,missing,reported,reported,partial,reported,reported,missing,reported
+126,7JKV,SeeSAR,E1,grid_center,12,reported,missing,partial,reported,missing,missing,missing,missing,missing,reported,partial,missing,reported,missing,missing,reported
+130,6LU7,ClusPro2,E1,grid_center,0,reported,missing,reported,reported,missing,missing,missing,missing,missing,missing,partial,missing,missing,missing,missing,missing
+167,7SI9,Glide,E2,,2,reported,partial,reported,reported,partial,partial,reported,reported,missing,reported,reported,partial,partial,reported,missing,partial
+188,7EN8,Schrödinger Glide (Induced-Fit Docking),E2,,3,reported,missing,reported,reported,reported,missing,missing,partial,missing,reported,reported,reported,reported,missing,missing,reported
+496,6Y84,AutoDock Vina,E2,,9,reported,missing,reported,reported,partial,missing,reported,missing,missing,partial,partial,missing,partial,partial,missing,reported
+479,6LU7,AutoDock Vina,E2,,7,reported,missing,reported,reported,missing,missing,missing,missing,missing,partial,reported,missing,missing,missing,missing,reported
+253,7VH8,AutoDock Vina,E2,,2,reported,reported,reported,reported,partial,reported,reported,partial,missing,partial,partial,missing,missing,reported,missing,reported
+506,6LU7,AutoDock Vina,E2,,51,reported,reported,reported,reported,missing,reported,reported,missing,missing,reported,reported,missing,reported,missing,missing,reported
+455,7AMJ,AutoDock Vina,E2,,2,reported,reported,partial,reported,reported,reported,reported,partial,missing,reported,reported,missing,reported,missing,missing,reported
+140,6LU7,AutoDock-Vina,E2,,8,reported,missing,partial,reported,missing,reported,reported,reported,missing,reported,partial,partial,missing,missing,partial,reported
+269,6LU7,AutoDock,E2,,7,reported,partial,reported,reported,reported,missing,reported,reported,missing,reported,partial,partial,reported,partial,missing,reported
+394,6M2N,Hex 8.0,E1,grid_center,6,reported,partial,reported,reported,reported,missing,missing,missing,missing,missing,partial,missing,missing,missing,missing,reported
+530,6W63,Schrodinger Glide (HTVS/SP/XP) + IFD,E2,,9,reported,missing,partial,reported,reported,missing,missing,reported,missing,reported,reported,partial,missing,reported,missing,reported
+160,6LU7,InstaDock/QuickVina-W,E1,grid_center,6,reported,missing,reported,reported,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,reported
+567,6LU7,Glide (Schrödinger),E2,,4,reported,missing,reported,reported,missing,reported,reported,reported,missing,reported,reported,reported,reported,missing,missing,reported
+422,5R82,Glide (Schrödinger Suite),E2,,15,reported,missing,reported,reported,missing,missing,missing,reported,missing,reported,reported,reported,reported,missing,missing,reported
+526,6W63,AutoDock Vina,E3,,10,reported,reported,reported,reported,reported,reported,reported,partial,missing,reported,reported,partial,reported,reported,missing,reported
+463,6LU7,Glide (Schrödinger),E2,,8,reported,missing,reported,reported,missing,partial,reported,reported,missing,reported,reported,reported,reported,reported,missing,reported
+361,6y2e,Glide XP (Schrödinger Maestro v12.8),E1,grid_center,3,reported,missing,partial,reported,reported,missing,missing,partial,missing,reported,reported,partial,partial,missing,missing,reported
+273,6W63,MOE,E2,,10,reported,missing,reported,reported,reported,missing,missing,partial,missing,reported,reported,reported,reported,reported,missing,reported
+265,6LU7,DOCK6,E2,,4,partial,missing,reported,reported,missing,missing,partial,partial,missing,reported,partial,missing,missing,missing,missing,reported
+320,6LU7,AutoDock/SwissDock,E2,,15,reported,missing,reported,reported,missing,missing,partial,reported,missing,reported,reported,missing,reported,reported,missing,reported
+459,6LU7,Glide (Schrödinger Maestro) + CovDock,E2,,23,reported,missing,partial,reported,partial,missing,reported,partial,missing,reported,partial,missing,missing,missing,missing,reported
+377,7KVL,ArgusLab 4.0.1 / AutoDock / AutoDock Vina,E2,,14,reported,missing,partial,reported,partial,reported,reported,reported,missing,partial,partial,missing,reported,missing,missing,reported
+233,5R82,AutoDock4,E2,,3,reported,missing,reported,reported,partial,reported,reported,reported,missing,reported,partial,missing,reported,reported,missing,reported
+399,6LU7,PyRx/AutoDock Vina,E2,,11,reported,missing,reported,reported,reported,missing,missing,missing,missing,reported,reported,partial,reported,missing,missing,reported
+376,6Y2E,AutoDock Vina,E2,,22,reported,missing,partial,reported,missing,reported,reported,partial,missing,reported,reported,missing,partial,missing,missing,reported
+458,6w63,AutoDock,E2,,1,reported,missing,reported,partial,partial,reported,reported,missing,missing,reported,reported,missing,partial,missing,missing,reported
+264,6LU7,AutoDock Vina (via PyRx),E2,,4,reported,missing,reported,reported,partial,missing,missing,missing,missing,partial,partial,missing,reported,missing,missing,reported
+272,6LU7,AutoDock Vina,E1,grid_size,10,reported,missing,reported,reported,reported,reported,missing,missing,missing,partial,partial,missing,missing,missing,missing,reported
+337,6y2e,"AutoDock Vina, GOLD, MOE",E2,,5,reported,missing,partial,reported,partial,reported,reported,missing,missing,reported,partial,partial,reported,partial,missing,reported
+360,6LU7,AutoDock 4.2,E2,,3,reported,missing,reported,reported,reported,reported,reported,reported,missing,reported,reported,reported,reported,reported,missing,reported
+177,5RF3,PyRx 0.8,E2,,3,reported,missing,reported,reported,reported,reported,reported,reported,missing,reported,reported,missing,reported,reported,missing,reported
+527,6LU7,Schrodinger Glide,E1,grid_center,12,reported,reported,reported,reported,missing,missing,partial,reported,missing,partial,reported,missing,missing,missing,missing,reported
+462,6LU7,LeDock + AutoDock Vina,E2,,20,reported,missing,reported,reported,partial,reported,reported,reported,missing,reported,reported,missing,reported,reported,missing,reported
+435,6LU7,AutoDock 4.2.6,E2,,10,reported,missing,reported,reported,reported,missing,reported,reported,missing,reported,reported,partial,missing,reported,missing,reported
+566,6LU7,AutoDock 4.2,E1,grid_center,7,reported,reported,reported,reported,reported,missing,reported,reported,missing,reported,reported,missing,missing,missing,missing,reported
+423,"7RFS,7T43,7VLP,6WNP,7TE0,5RHE,7DDC,7DPU","AutoDock Vina 1.2.3, RDock 0.22, Glide (Schrodinger)",E2,,0,reported,reported,partial,reported,reported,partial,reported,reported,missing,reported,reported,partial,reported,reported,partial,reported
+161,7CA8,MOE 2008,E2,,2,reported,missing,reported,reported,reported,partial,partial,partial,missing,reported,reported,missing,reported,reported,missing,reported
+395,6LU7,AutoDock 4.0,E1,grid_center,46,reported,missing,reported,reported,reported,missing,missing,partial,missing,partial,reported,missing,missing,missing,missing,reported
+546,6M2N,AutoDock Vina,E2,,11,reported,reported,partial,reported,missing,reported,reported,missing,missing,reported,reported,reported,missing,partial,missing,reported
+268,7L8J,MOE 2019.02,E1,grid_center,6,reported,missing,reported,reported,reported,missing,partial,missing,missing,partial,partial,missing,missing,missing,missing,reported
+511,6LU7,AutoDock 4.2,E2,,26,reported,partial,reported,reported,reported,reported,reported,partial,missing,reported,partial,missing,reported,partial,missing,reported
+157,7L13,Glide (Schrödinger),E1,grid_center,35,reported,missing,reported,reported,missing,missing,missing,partial,missing,missing,partial,missing,partial,missing,missing,reported
+415,6LU7,MOE,E2,,10,reported,missing,reported,reported,reported,missing,missing,missing,missing,partial,reported,partial,missing,reported,missing,reported
+252,5RG1,Molegro Virtual Docker,E2,,2,reported,missing,reported,reported,reported,partial,reported,missing,missing,partial,partial,missing,missing,reported,missing,reported
+481,6LU7,PyRx/AutoDock Vina,E2,,2,reported,missing,partial,reported,missing,reported,reported,reported,missing,reported,reported,missing,reported,missing,missing,reported
+205,7L13,Glide (Schrodinger Maestro v12.1),E2,,2,reported,missing,reported,reported,reported,partial,partial,reported,missing,reported,reported,partial,reported,reported,missing,reported
+439,7C6S,AutoDock 4.2,E1,grid_center,3,reported,missing,partial,reported,reported,missing,missing,partial,missing,missing,partial,missing,missing,missing,missing,reported
+213,,,E1,pdb_receptor,0,missing,missing,partial,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing,missing
+497,6Y2F,AutoDock Vina (PyRx),E2,,40,reported,missing,reported,reported,missing,reported,reported,reported,missing,reported,reported,missing,reported,missing,missing,reported
+478,6WQF,AutoDock 4.2.6,E2,,9562,reported,missing,partial,reported,reported,reported,reported,reported,missing,reported,partial,missing,reported,missing,reported,reported

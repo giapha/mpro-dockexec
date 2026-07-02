@@ -1,0 +1,60 @@
+field,level,required_for_paper1,downstream_use,definition
+paper_id,paper,yes,paper2_paper3,Stable internal paper identifier
+claim_id,claim,yes,paper2_paper3,Stable internal claim identifier
+source_id,source,yes,paper3,Source record identifier from retrieval
+doi,paper,nullable,paper3,DOI if available
+pmid,paper,nullable,paper3,PMID if available
+pmcid,paper,nullable,paper3,PMCID if available
+openalex_id,paper,nullable,paper3,OpenAlex work ID if available
+crossref_doi,paper,nullable,paper3,Crossref DOI match if available
+source_type,paper,yes,paper3,Peer-reviewed article preprint or other coded source type
+publication_year,paper,yes,paper3,Publication year
+journal_or_source,paper,yes,paper3,Journal preprint server or source name
+article_type,paper,yes,paper3,Original article preprint conference abstract etc
+oa_status,paper,nullable,paper3,Open access status if available
+full_text_status,paper,yes,paper2_paper3,Full-text availability state
+duplicate_group_id,paper,yes,paper3,Deduplication/version lineage group
+version_lineage_status,paper,yes,paper3,Original preprint published version duplicate superseded or unclear
+title_abstract_screen_decision,paper,yes,paper1,Initial screening decision
+full_text_screen_decision,paper,yes,paper1,Full-text screening decision
+exclusion_reason,paper,nullable,paper1,Predefined exclusion code
+claim_type,claim,yes,paper2_paper3,Molecular docking virtual screening ranking or validation claim
+target_name,claim,yes,paper2,SARS-CoV-2 Mpro 3CLpro or other reported target
+pdb_id,claim,nullable,paper2,PDB identifier if reported
+chain_id,claim,nullable,paper2,Protein chain if reported
+ligand_name,claim,yes,paper2,Ligand or compound name
+ligand_identifier,claim,nullable,paper2,PubChem CID SMILES InChI or equivalent
+software_name,claim,nullable,paper2_paper3,Docking software
+software_version,claim,nullable,paper2_paper3,Docking software version
+scoring_function,claim,nullable,paper2,Scoring function if reported
+reported_score,claim,nullable,paper2,Binding score or equivalent
+reported_rank_or_comparator,claim,nullable,paper2,Rank comparator native ligand positive control or benchmark target
+grid_center_state,parameter,yes,paper2,reported missing unknown not_applicable conflicting inferred_candidate
+grid_size_state,parameter,yes,paper2,reported missing unknown not_applicable conflicting inferred_candidate
+exhaustiveness_state,parameter,yes,paper2,reported missing unknown not_applicable conflicting inferred_candidate
+seed_state,parameter,yes,paper2,reported missing unknown not_applicable conflicting inferred_candidate
+receptor_preparation_state,parameter,yes,paper2,reported missing unknown not_applicable conflicting inferred_candidate
+ligand_preparation_state,parameter,yes,paper2,reported missing unknown not_applicable conflicting inferred_candidate
+protonation_tautomer_state,parameter,yes,paper2,reported missing unknown not_applicable conflicting inferred_candidate
+water_ion_handling_state,parameter,yes,paper2,reported missing unknown not_applicable conflicting inferred_candidate
+validation_redocking_state,parameter,yes,paper2_paper3,reported missing unknown not_applicable conflicting inferred_candidate
+artifact_code_state,artifact,yes,paper2_paper3,code availability state
+artifact_data_state,artifact,yes,paper2_paper3,input/output data availability state
+artifact_config_state,artifact,yes,paper2_paper3,configuration or workflow availability state
+source_span_coverage_state,source_span,yes,paper2_paper3,complete partial missing or conflicting source-span coverage
+missing_parameter_codes,claim,yes,paper1_paper2,Delimited missing parameter codes
+assumption_required_codes,claim,nullable,paper2,Delimited assumptions needed for rerun
+executability_class,claim,yes,paper1_paper2_paper3,E0 E1 E2 E3 or E4
+executability_reason_codes,claim,yes,paper1_paper2_paper3,Delimited reason codes supporting E class
+review_status,review,yes,paper1_paper3,machine_only reviewer1_done double_reviewed adjudicated unresolved
+reviewer_1_label,review,nullable,paper3,Reviewer 1 E-class or field label
+reviewer_2_label,review,nullable,paper3,Reviewer 2 E-class or field label
+adjudicated_label,review,yes,paper1_paper3,Final adjudicated label
+agent_candidate_preserved,review,yes,paper3,Whether original agent output was preserved
+human_correction_required,review,yes,paper1_paper3,Whether human changed candidate extraction
+rerun_candidate_flag,claim,nullable,paper2,Predefined flag for Paper 2 candidate claims
+benchmark_candidate_flag,claim,nullable,paper3,Predefined flag for Paper 3 benchmark candidate
+baseline_citation_count,paper,nullable,paper3,Citation count from captured source if available
+baseline_source_prior,paper,nullable,paper3,Source/journal/preprint prior category for benchmark
+baseline_semantic_relevance_version,paper,nullable,paper3,Versioned semantic relevance score if computed
+notes,claim,nullable,paper1_paper2_paper3,Free-text reviewer notes

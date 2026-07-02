@@ -1,0 +1,247 @@
+{
+ "N_papers": 236,
+ "N_dropped_noneligible": 5,
+ "N_claims_est": 12466,
+ "paper_E": {
+  "E0": {
+   "n": 0,
+   "pct": 0.0,
+   "ci": [
+    0.0,
+    1.6
+   ]
+  },
+  "E1": {
+   "n": 81,
+   "pct": 34.3,
+   "ci": [
+    28.6,
+    40.6
+   ]
+  },
+  "E2": {
+   "n": 141,
+   "pct": 59.7,
+   "ci": [
+    53.4,
+    65.8
+   ]
+  },
+  "E3": {
+   "n": 12,
+   "pct": 5.1,
+   "ci": [
+    2.9,
+    8.7
+   ]
+  },
+  "E4": {
+   "n": 2,
+   "pct": 0.8,
+   "ci": [
+    0.2,
+    3.0
+   ]
+  }
+ },
+ "claim_E": {
+  "E0": {
+   "n": 0,
+   "pct": 0.0
+  },
+  "E1": {
+   "n": 911,
+   "pct": 7.3
+  },
+  "E2": {
+   "n": 11404,
+   "pct": 91.5
+  },
+  "E3": {
+   "n": 131,
+   "pct": 1.1
+  },
+  "E4": {
+   "n": 20,
+   "pct": 0.2
+  }
+ },
+ "fields": {
+  "pdb_receptor": {
+   "reported": 224,
+   "partial": 7,
+   "missing": 5,
+   "pct_reported": 94.9,
+   "ci": [
+    91.3,
+    97.1
+   ],
+   "pct_rep_or_partial": 97.9
+  },
+  "protein_chain": {
+   "reported": 30,
+   "partial": 33,
+   "missing": 173,
+   "pct_reported": 12.7,
+   "ci": [
+    9.1,
+    17.6
+   ],
+   "pct_rep_or_partial": 26.7
+  },
+  "ligand_identifier": {
+   "reported": 176,
+   "partial": 60,
+   "missing": 0,
+   "pct_reported": 74.6,
+   "ci": [
+    68.7,
+    79.7
+   ],
+   "pct_rep_or_partial": 100.0
+  },
+  "docking_software": {
+   "reported": 231,
+   "partial": 1,
+   "missing": 4,
+   "pct_reported": 97.9,
+   "ci": [
+    95.1,
+    99.1
+   ],
+   "pct_rep_or_partial": 98.3
+  },
+  "software_version": {
+   "reported": 124,
+   "partial": 39,
+   "missing": 73,
+   "pct_reported": 52.5,
+   "ci": [
+    46.2,
+    58.8
+   ],
+   "pct_rep_or_partial": 69.1
+  },
+  "grid_center": {
+   "reported": 80,
+   "partial": 44,
+   "missing": 112,
+   "pct_reported": 33.9,
+   "ci": [
+    28.2,
+    40.2
+   ],
+   "pct_rep_or_partial": 52.5
+  },
+  "grid_size": {
+   "reported": 96,
+   "partial": 40,
+   "missing": 100,
+   "pct_reported": 40.7,
+   "ci": [
+    34.6,
+    47.0
+   ],
+   "pct_rep_or_partial": 57.6
+  },
+  "search_effort": {
+   "reported": 90,
+   "partial": 69,
+   "missing": 77,
+   "pct_reported": 38.1,
+   "ci": [
+    32.2,
+    44.5
+   ],
+   "pct_rep_or_partial": 67.4
+  },
+  "random_seed": {
+   "reported": 1,
+   "partial": 0,
+   "missing": 235,
+   "pct_reported": 0.4,
+   "ci": [
+    0.1,
+    2.4
+   ],
+   "pct_rep_or_partial": 0.4
+  },
+  "receptor_preparation": {
+   "reported": 162,
+   "partial": 57,
+   "missing": 17,
+   "pct_reported": 68.6,
+   "ci": [
+    62.5,
+    74.2
+   ],
+   "pct_rep_or_partial": 92.8
+  },
+  "ligand_preparation": {
+   "reported": 152,
+   "partial": 69,
+   "missing": 15,
+   "pct_reported": 64.4,
+   "ci": [
+    58.1,
+    70.2
+   ],
+   "pct_rep_or_partial": 93.6
+  },
+  "protonation_tautomer": {
+   "reported": 49,
+   "partial": 52,
+   "missing": 135,
+   "pct_reported": 20.8,
+   "ci": [
+    16.1,
+    26.4
+   ],
+   "pct_rep_or_partial": 42.8
+  },
+  "water_ion_handling": {
+   "reported": 130,
+   "partial": 39,
+   "missing": 67,
+   "pct_reported": 55.1,
+   "ci": [
+    48.7,
+    61.3
+   ],
+   "pct_rep_or_partial": 71.6
+  },
+  "validation_redocking": {
+   "reported": 80,
+   "partial": 30,
+   "missing": 126,
+   "pct_reported": 33.9,
+   "ci": [
+    28.2,
+    40.2
+   ],
+   "pct_rep_or_partial": 46.6
+  },
+  "code_artifacts": {
+   "reported": 6,
+   "partial": 13,
+   "missing": 217,
+   "pct_reported": 2.5,
+   "ci": [
+    1.2,
+    5.4
+   ],
+   "pct_rep_or_partial": 8.1
+  },
+  "numeric_result": {
+   "reported": 222,
+   "partial": 8,
+   "missing": 6,
+   "pct_reported": 94.1,
+   "ci": [
+    90.3,
+    96.4
+   ],
+   "pct_rep_or_partial": 97.5
+  }
+ }
+}

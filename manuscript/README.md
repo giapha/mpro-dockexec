@@ -1,0 +1,16 @@
+# Manuscript
+
+**Title:** *Most open-access Mpro docking papers are not directly re-executable*
+
+**Status:** preprint forthcoming on **bioRxiv** (category: Bioinformatics; license: CC BY 4.0). The DOI and link will be added here on posting, and the manuscript PDF will be attached to the tagged Zenodo release.
+
+**Authors:** Vincent He (corresponding, Vincentgiap@gmail.com), Eric Wang, Cris Nguyen — NewScience Lab.
+
+---
+
+## Abstract
+
+A molecular docking score is the output of a workflow, not a standalone fact: it depends on the receptor, the ligand, the software, the search box, the random seed, and several preparation choices. Reporting the score without the workflow makes the result impossible to re-run. We measured how often this happens in the open-access SARS-CoV-2 main-protease (Mpro) docking literature. Against a 16-field reporting standard (MERS-Dock) and a five-level executability ladder (E0–E4), we audited 236 papers with a source-span-anchored, deterministically verified pipeline. Only 8.1% of these open-access papers are directly re-executable (E3; 95% CI 5.2–12.2), 44.1% are executable only after explicit assumptions (E2), 47.9% are execution-blocked by a missing foundational field (E1), and none are fully reproducible with a disclosed seed and reusable configuration (E4; 0/236). The single most common blocking omission is the search-box centre, absent from two-thirds of papers. Two independent human reviewers agree on the labels at Cohen's κ = 0.926, reproduced at the same value by a deterministic codebook classifier and a blind language-model rater. To test whether these reporting-derived classes carry signal for regenerability, we re-docked 37 quality-controlled claims across two targets with AutoDock Vina, using each paper's reported search box and anchoring every ligand to a PubChem CID and InChIKey. Against the engine's own near-deterministic run-to-run noise (within-ligand range median 0.04 kcal/mol), reported scores reproduced to a median of 0.54 kcal/mol (29 of 37 within a 2.0 kcal/mol noise-calibrated tolerance). Directly-executable (E3) claims reproduced essentially at the noise floor (0.24 kcal/mol) and assumption-dependent (E2) claims about twofold further (0.59); but the E3 stratum is small (n = 6) and the difference is not significant (Mann–Whitney p = 0.14), so we read it as a directional signal, not a powered effect. Because the corpus is open-access and text-extractable, these figures likely overestimate executability in the broader, paywalled literature. We release Mpro-DockExec, the audit dataset with the reporting standard and re-execution scripts, as a measurement layer for scientific verification.
+
+## Competing interests
+V.H. is a scientific cofounder of NewScience, a company developing verification- and executability-aware tools for computational scientific claims; all authors are affiliated with NewScience Lab. The MERS-Dock standard and executability ladder reported here could inform such tools. The apparatus is named generically, the NewScience platform is not a study object, and all data, code, and the reporting standard are released openly so the findings can be assessed independently of any commercial interest.

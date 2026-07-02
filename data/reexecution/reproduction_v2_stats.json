@@ -1,0 +1,42 @@
+{
+  "v2_reported_box_expanded_n": {
+    "n_qc": 37,
+    "E3_n": 6,
+    "E2_n": 31,
+    "ALL_median": 0.538,
+    "ALL_within2": "29/37",
+    "E3_median": 0.237,
+    "E3_CI": [
+      0.04,
+      1.07
+    ],
+    "E3_within2": "6/6",
+    "E2_median": 0.588,
+    "E2_CI": [
+      0.32,
+      1.44
+    ],
+    "E2_within2": "23/31",
+    "mannwhitney_p": 0.138
+  },
+  "v1_default25": {
+    "n_qc": 39,
+    "E3_n": 5,
+    "E2_n": 34,
+    "ALL_median": 0.588,
+    "ALL_within2": "29/39",
+    "E3_median": 0.35,
+    "E3_CI": [
+      0.0,
+      1.39
+    ],
+    "E3_within2": "5/5",
+    "E2_median": 0.738,
+    "E2_CI": [
+      0.34,
+      1.73
+    ],
+    "E2_within2": "24/34",
+    "mannwhitney_p": 0.1305
+  }
+}

@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "If you use this dataset, standard, or code, please cite the following."
+title: "Mpro-DockExec: a reporting-completeness and re-executability audit of the open-access SARS-CoV-2 Mpro docking literature"
+abstract: >-
+  A 16-field reporting standard (MERS-Dock) and a five-level executability
+  ladder (E0-E4) applied to 236 open-access SARS-CoV-2 main-protease docking
+  papers, with re-execution of 37 quality-controlled claims using AutoDock
+  Vina. Ships derived audit data, the reporting standard, and the analysis and
+  re-execution scripts.
+type: dataset
+authors:
+  - given-names: Vincent
+    family-names: He
+    affiliation: NewScience Lab
+    email: Vincentgiap@gmail.com
+  - given-names: Eric
+    family-names: Wang
+    affiliation: NewScience Lab
+  - given-names: Cris
+    family-names: Nguyen
+    affiliation: NewScience Lab
+keywords:
+  - molecular docking
+  - reproducibility
+  - SARS-CoV-2 main protease
+  - reporting standards
+  - meta-research
+  - AutoDock Vina
+license: CC-BY-4.0
+version: 0.1.0
+date-released: 2026-07-03
+repository-code: "https://github.com/giapha/mpro-dockexec"
+preferred-citation:
+  type: article
+  title: "Most open-access Mpro docking papers are not directly re-executable"
+  authors:
+    - given-names: Vincent
+      family-names: He
+      affiliation: NewScience Lab
+    - given-names: Eric
+      family-names: Wang
+      affiliation: NewScience Lab
+    - given-names: Cris
+      family-names: Nguyen
+      affiliation: NewScience Lab
+  year: 2026
+  journal: "bioRxiv (preprint, forthcoming)"
+  notes: "DOI added on posting."

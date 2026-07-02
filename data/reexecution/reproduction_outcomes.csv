@@ -1,0 +1,66 @@
+claim_id,paper_id,e_class,target_pdb,ligand_name,reported_score,rerun_score,abs_delta,within_1,within_2,status,smiles_source,box_source,box_size_assumed,vina_version
+C0001,P0006,E3,6LU7,N3 inhibitor,-7.8,,,,,smiles_unresolved,uncached,span_parsed,reported,AutoDock Vina v1.2.7
+C0002,P0006,E3,6LU7,phthalocyanine,-10.7,-9.357,1.343,0,1,docked,pubchem:cid:136077039,span_parsed,reported,AutoDock Vina v1.2.7
+C0003,P0006,E3,6LU7,dihydroergotamine,-9.9,-9.944,0.044,1,1,docked,pubchem:cid:10531,span_parsed,reported,AutoDock Vina v1.2.7
+C0004,P0006,E3,6LU7,N-1H-indazol-5-yl-2-(6-methylpyridin-2-yl)quinazolin-4-amine,-9.8,-9.663,0.137,1,1,docked,pubchem:cid:9998128,span_parsed,reported,AutoDock Vina v1.2.7
+C0005,P0006,E3,6LU7,ergotamine,-9.7,-10.036,0.336,1,1,docked,pubchem:cid:8223,span_parsed,reported,AutoDock Vina v1.2.7
+C0006,P0006,E3,6LU7,antrafenine,-9.4,-9.437,0.037,1,1,docked,pubchem:cid:68723,span_parsed,reported,AutoDock Vina v1.2.7
+C0007,P0009,E2,6yb7,Savinin,-8.864,,,,,needs_prepped_receptor:6yb7,pubchem:cid:5281867,span_parsed,default_25,AutoDock Vina v1.2.7
+C0008,P0009,E2,6yb7,Betulinic acid,-8.644,,,,,needs_prepped_receptor:6yb7,pubchem:cid:64971,span_parsed,default_25,AutoDock Vina v1.2.7
+C0009,P0009,E2,6yb7,Curcumin,-8.373,,,,,needs_prepped_receptor:6yb7,pubchem:cid:969516,span_parsed,default_25,AutoDock Vina v1.2.7
+C0010,P0009,E2,6yb7,Curcumin,-8.554,,,,,needs_prepped_receptor:6yb7,pubchem:cid:969516,span_parsed,default_25,AutoDock Vina v1.2.7
+C0011,P0009,E2,6yb7,Betulinic acid,-8.548,,,,,needs_prepped_receptor:6yb7,pubchem:cid:64971,span_parsed,default_25,AutoDock Vina v1.2.7
+C0012,P0009,E2,6yb7,Savinin,-8.518,,,,,needs_prepped_receptor:6yb7,pubchem:cid:5281867,span_parsed,default_25,AutoDock Vina v1.2.7
+C0013,P0009,E2,6yb7,N3,-8.636,,,,,smiles_unresolved,uncached,span_parsed,default_25,AutoDock Vina v1.2.7
+C0014,P0009,E2,6yb7,Remdesivir,-8.894,,,,,needs_prepped_receptor:6yb7,pubchem:cid:121304016,span_parsed,default_25,AutoDock Vina v1.2.7
+C0015,P0009,E2,6yb7,Darunavir,-8.399,,,,,needs_prepped_receptor:6yb7,pubchem:cid:213039,span_parsed,default_25,AutoDock Vina v1.2.7
+C0016,P0009,E2,6yb7,ML188,-8.883,,,,,needs_prepped_receptor:6yb7,pubchem:cid:46897844,span_parsed,default_25,AutoDock Vina v1.2.7
+C0017,P0009,E2,6yb7,Nirmatrelvir,-7.793,,,,,needs_prepped_receptor:6yb7,pubchem:cid:155903259,span_parsed,default_25,AutoDock Vina v1.2.7
+C0018,P0009,E2,6yb7,Nirmatrelvir,-8.404,,,,,needs_prepped_receptor:6yb7,pubchem:cid:155903259,span_parsed,default_25,AutoDock Vina v1.2.7
+C0064,P0047,E2,5R7Y,Panicutine,-7.4,,,,,dock_failed_no_pose,pubchem:cid:44566630,span_parsed,reported_capped,AutoDock Vina v1.2.7
+C0065,P0047,E2,5R7Y,Vilmorrianone,-7.0,,,,,dock_failed_no_pose,pubchem:cid:44566629,span_parsed,reported_capped,AutoDock Vina v1.2.7
+C0066,P0047,E2,5R7Y,Denudatine,-6.0,,,,,dock_failed_no_pose,pubchem:cid:161515,span_parsed,reported_capped,AutoDock Vina v1.2.7
+C0067,P0047,E2,5R7Y,Condelphine,-5.9,,,,,dock_failed_no_pose,pubchem:cid:441720,span_parsed,reported_capped,AutoDock Vina v1.2.7
+C0078,P0014,E2,6LU7,Ginkgolide M,-11.2,-7.129,4.071,0,0,docked,pubchem:cid:71450923,span_parsed,default_25,AutoDock Vina v1.2.7
+C0079,P0014,E2,6LU7,Mezerein,-11.0,-7.159,3.841,0,0,docked,pubchem:cid:24832075,span_parsed,default_25,AutoDock Vina v1.2.7
+C0080,P0014,E2,6LU7,Tubocurarine,-10.9,-6.074,4.826,0,0,docked,pubchem:cid:6000,span_parsed,default_25,AutoDock Vina v1.2.7
+C0081,P0014,E2,6LU7,Gnidicin,-10.4,-7.517,2.883,0,0,docked,pubchem:cid:70691946,span_parsed,default_25,AutoDock Vina v1.2.7
+C0082,P0014,E2,6LU7,Glycobismine A,-10.4,-9.042,1.358,0,1,docked,pubchem:cid:5462453,span_parsed,default_25,AutoDock Vina v1.2.7
+C0083,P0014,E2,6LU7,Sciadopitysin,-10.2,-9.046,1.154,0,1,docked,pubchem:cid:5281696,span_parsed,default_25,AutoDock Vina v1.2.7
+C0084,P0014,E2,6LU7,Gnididin,-9.2,-6.922,2.278,0,0,docked,pubchem:cid:118701513,span_parsed,default_25,AutoDock Vina v1.2.7
+C0085,P0014,E2,6LU7,Emetine,-8.7,-7.825,0.875,1,1,docked,pubchem:cid:10219,span_parsed,default_25,AutoDock Vina v1.2.7
+C0086,P0014,E2,6LU7,Vitexin,-8.3,-7.863,0.437,1,1,docked,pubchem:cid:5280441,span_parsed,default_25,AutoDock Vina v1.2.7
+C0087,P0014,E2,6LU7,Calophyllolide,-8.3,-7.982,0.318,1,1,docked,pubchem:cid:5281392,span_parsed,default_25,AutoDock Vina v1.2.7
+C0088,P0014,E2,6LU7,"6-(3,3-Dimethylallyl)galangin",-7.9,-7.312,0.588,1,1,docked,pubchem:cid:5281945,span_parsed,default_25,AutoDock Vina v1.2.7
+C0089,P0014,E2,6LU7,Nelfinavir,-9.1,-7.366,1.734,0,1,docked,pubchem:cid:64143,span_parsed,default_25,AutoDock Vina v1.2.7
+C0090,P0014,E2,6LU7,Lopinavir,-8.4,-7.798,0.602,1,1,docked,pubchem:cid:92727,span_parsed,default_25,AutoDock Vina v1.2.7
+C0115,P0039,E2,6LU7,Simeprevir,-10.3,-6.326,3.974,0,0,docked,pubchem:cid:24873435,span_parsed,reported_capped,AutoDock Vina v1.2.7
+C0116,P0039,E2,6LU7,Ergotamine,-9.8,-10.015,0.215,1,1,docked,pubchem:cid:8223,span_parsed,reported_capped,AutoDock Vina v1.2.7
+C0117,P0039,E2,6LU7,Bromocriptine,-9.6,-9.923,0.323,1,1,docked,pubchem:cid:31101,span_parsed,reported_capped,AutoDock Vina v1.2.7
+C0118,P0039,E2,6LU7,Tadalafil,-9.5,-9.421,0.079,1,1,docked,pubchem:cid:110635,span_parsed,reported_capped,AutoDock Vina v1.2.7
+C0125,P0053,E3,6LU7,baloxavir acid (BXA),-7.4,-8.191,0.791,1,1,docked,pubchem:cid:124081876,span_parsed,reported_capped,AutoDock Vina v1.2.7
+C0167,P0005,E2,6Y2E,Dihydroergotamine,-9.2,-9.531,0.331,1,1,docked,pubchem:cid:10531,span_parsed,reported_capped,AutoDock Vina v1.2.7
+C0168,P0005,E2,6Y2E,Ergotamine,-9.2,-9.708,0.508,1,1,docked,pubchem:cid:8223,span_parsed,reported_capped,AutoDock Vina v1.2.7
+C0178,P0012,E2,6LU7,Aegelinoside B,-8.54,-1.946,6.594,0,0,docked,pubchem:cid:44579744,span_parsed,default_25,AutoDock Vina v1.2.7
+C0180,P0012,E2,6LU7,Ervoside,-7.91,,,,,smiles_unresolved,uncached,span_parsed,default_25,AutoDock Vina v1.2.7
+C0182,P0012,E2,6LU7,Epoxyaurapten,-7.75,-2.096,5.654,0,0,docked,pubchem:cid:9796891,span_parsed,default_25,AutoDock Vina v1.2.7
+C0184,P0012,E2,6LU7,Feruloyltyramine,-8.01,-1.858,6.152,0,0,docked,pubchem:cid:5280537,span_parsed,default_25,AutoDock Vina v1.2.7
+C0186,P0012,E2,6LU7,N-benzoyl-L-phenylalaninol,-8.22,-1.971,6.249,0,0,docked,pubchem:cid:852848,span_parsed,default_25,AutoDock Vina v1.2.7
+C0195,P0017,E2,6LU7,Danoprevir,-7.7,-6.019,1.681,0,1,docked,pubchem:cid:11285588,span_parsed,default_25,AutoDock Vina v1.2.7
+C0196,P0017,E2,6LU7,Remdesivir,-8.1,-8.159,0.059,1,1,docked,pubchem:cid:121304016,span_parsed,default_25,AutoDock Vina v1.2.7
+C0197,P0017,E2,6LU7,Saridegib,-7.8,-6.358,1.442,0,1,docked,pubchem:cid:25027363,span_parsed,default_25,AutoDock Vina v1.2.7
+C0198,P0017,E2,6LU7,Cepharanthine,-7.9,-5.84,2.06,0,0,docked,pubchem:cid:10206,span_parsed,default_25,AutoDock Vina v1.2.7
+C0199,P0017,E2,6LU7,Ivermectin,-7.9,,,,,smiles_unresolved,uncached,span_parsed,default_25,AutoDock Vina v1.2.7
+C0200,P0017,E2,6LU7,Baricitinib,-7.4,-7.631,0.231,1,1,docked,pubchem:cid:44205240,span_parsed,default_25,AutoDock Vina v1.2.7
+C0201,P0017,E2,6LU7,Lopinavir,-7.4,-7.938,0.538,1,1,docked,pubchem:cid:92727,span_parsed,default_25,AutoDock Vina v1.2.7
+C0202,P0017,E2,6LU7,Ritonavir,-7.4,-7.412,0.012,1,1,docked,pubchem:cid:392622,span_parsed,default_25,AutoDock Vina v1.2.7
+C0203,P0017,E2,6LU7,Dexamethasone,-7.1,-6.872,0.228,1,1,docked,pubchem:cid:5743,span_parsed,default_25,AutoDock Vina v1.2.7
+C0204,P0017,E2,6LU7,Methylprednisolone,-7.1,-7.211,0.111,1,1,docked,pubchem:cid:6741,span_parsed,default_25,AutoDock Vina v1.2.7
+C0205,P0017,E2,6LU7,Hydroxychloroquine,-6.0,-6.234,0.234,1,1,docked,pubchem:cid:3652,span_parsed,default_25,AutoDock Vina v1.2.7
+C0206,P0017,E2,6LU7,Ascorbic acid,-5.4,-5.371,0.029,1,1,docked,pubchem:cid:54670067,span_parsed,default_25,AutoDock Vina v1.2.7
+C0207,P0017,E2,6LU7,N3 (control inhibitor),-7.48,,,,,smiles_unresolved,uncached,span_parsed,default_25,AutoDock Vina v1.2.7
+C0224,P0023,E2,6LU7,Teicoplanin Aglycone,-8.7,,,,,dock_failed_no_pose,pubchem:cid:16154789,span_parsed,default_25,AutoDock Vina v1.2.7
+C0225,P0023,E2,6LU7,Inhibitor N3 (native co-crystallized ligand),-7.0,,,,,smiles_unresolved,uncached,span_parsed,default_25,AutoDock Vina v1.2.7
+C0226,P0023,E2,6LU7,Teicoplanin A3-1,-6.9,,,,,dock_failed_no_pose,pubchem:cid:16152170,span_parsed,default_25,AutoDock Vina v1.2.7
+C0227,P0023,E2,6LU7,Vancomycin,-6.3,,,,,dock_failed_no_pose,pubchem:cid:14969,span_parsed,default_25,AutoDock Vina v1.2.7
+C0228,P0023,E2,6LU7,Teicoplanin,-6.1,,,,,dock_failed_no_pose,pubchem:cid:133065662,span_parsed,default_25,AutoDock Vina v1.2.7

@@ -1,0 +1,86 @@
+{
+  "_note": "Human-aligned re-lock of N=236 E-class via deterministic rule classifier (rule vs human R1 kappa=0.926). Supersedes optimistic pipeline paper_e_class (pipeline vs R1 kappa=0.075). Recompute: python3 relock_rule_rerate.py",
+  "N": 236,
+  "paper_level_rule_relocked": {
+    "E1": {
+      "n": 113,
+      "pct": 47.9,
+      "wilson95": [
+        41.6,
+        54.2
+      ]
+    },
+    "E2": {
+      "n": 104,
+      "pct": 44.1,
+      "wilson95": [
+        37.9,
+        50.4
+      ]
+    },
+    "E3": {
+      "n": 19,
+      "pct": 8.1,
+      "wilson95": [
+        5.2,
+        12.2
+      ]
+    },
+    "E4": {
+      "n": 0,
+      "pct": 0.0,
+      "wilson95": [
+        0.0,
+        1.6
+      ]
+    }
+  },
+  "paper_level_pipeline_superseded": {
+    "E1": {
+      "n": 81,
+      "pct": 34.3
+    },
+    "E2": {
+      "n": 141,
+      "pct": 59.7
+    },
+    "E3": {
+      "n": 12,
+      "pct": 5.1
+    },
+    "E4": {
+      "n": 2,
+      "pct": 0.8
+    }
+  },
+  "executable_E3plusE4": {
+    "n": 19,
+    "pct": 8.1,
+    "wilson95": [
+      5.2,
+      12.2
+    ],
+    "not_executable_pct": 91.9
+  },
+  "claim_weighted_rule": {
+    "total_claims_est": 12466,
+    "E1": {
+      "n": 1323,
+      "pct": 10.6
+    },
+    "E2": {
+      "n": 10838,
+      "pct": 86.9
+    },
+    "E3": {
+      "n": 305,
+      "pct": 2.4
+    },
+    "E4": {
+      "n": 0,
+      "pct": 0.0
+    }
+  },
+  "disagreements_pipeline_vs_rule": 80,
+  "E4_zero_reason": "Only 1 paper reports random_seed (idx 49); its code_artifacts is missing, so it does not meet the strict E4 bar (rule -> E3). No paper is fully reproducible."
+}

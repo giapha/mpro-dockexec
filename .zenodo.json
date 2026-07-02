@@ -1,0 +1,23 @@
+{
+  "title": "Mpro-DockExec: a reporting-completeness and re-executability audit of the open-access SARS-CoV-2 Mpro docking literature",
+  "upload_type": "dataset",
+  "description": "<p>A 16-field reporting standard (MERS-Dock) and a five-level executability ladder (E0&ndash;E4) applied to 236 open-access SARS-CoV-2 main-protease (Mpro) molecular-docking papers, with re-execution of 37 quality-controlled ligand-level claims using AutoDock Vina 1.2.7. Only 8.1% of these open-access papers are directly re-executable (E3); none are fully reproducible with a disclosed seed and reusable configuration (E4; 0/236). Ships derived audit data (per-paper field states, executability labels), the reporting standard, and the analysis and re-execution scripts. Publisher full texts are not redistributed.</p>",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "molecular docking",
+    "reproducibility",
+    "SARS-CoV-2 main protease",
+    "Mpro",
+    "reporting standards",
+    "meta-research",
+    "AutoDock Vina",
+    "executability"
+  ],
+  "creators": [
+    { "name": "He, Vincent", "affiliation": "NewScience Lab" },
+    { "name": "Wang, Eric", "affiliation": "NewScience Lab" },
+    { "name": "Nguyen, Cris", "affiliation": "NewScience Lab" }
+  ],
+  "notes": "Companion dataset and code for the bioRxiv preprint 'Most open-access Mpro docking papers are not directly re-executable' (forthcoming)."
+}
