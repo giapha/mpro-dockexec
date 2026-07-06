@@ -34,7 +34,7 @@ data/reexecution/  Re-docking outcomes, ligand provenance (PubChem CID + InChIKe
 code/         The deterministic re-lock classifier, stats, κ, and figure scripts
 code/runner/  The re-execution engine: claim → AutoDock Vina → compare-to-reported → per-claim provenance JSON
 figures/      Publication figures (executability distribution, missing-field matrix, re-execution scatter, PRISMA)
-manuscript/   Abstract + preprint pointer (bioRxiv link added on posting)
+manuscript/   Abstract + preprint pointer (link added on posting)
 docs/         Full reproduction guide + pinned environment
 ```
 
@@ -81,7 +81,7 @@ Short verbatim spans used as evidence during auditing are **omitted** from the p
 
 ## Manuscript
 
-Preprint: *"Most open-access Mpro docking papers are not directly re-executable"* — **bioRxiv, forthcoming** (link and DOI added here on posting). Abstract in [`manuscript/README.md`](manuscript/README.md).
+Preprint: *"Measuring the re-executability of a computational claim: a deterministic reporting standard and a noise-calibrated re-execution protocol for molecular docking"* — **preprint forthcoming** (link and DOI added here on posting). Abstract in [`manuscript/README.md`](manuscript/README.md).
 
 ## Citation
 

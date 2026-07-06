@@ -32,7 +32,7 @@ date-released: 2026-07-03
 repository-code: "https://github.com/giapha/mpro-dockexec"
 preferred-citation:
   type: article
-  title: "Most open-access Mpro docking papers are not directly re-executable"
+  title: "Measuring the re-executability of a computational claim: a deterministic reporting standard and a noise-calibrated re-execution protocol for molecular docking"
   authors:
     - given-names: Vincent
       family-names: He
@@ -44,5 +44,5 @@ preferred-citation:
       family-names: Nguyen
       affiliation: NewScience Lab
   year: 2026
-  journal: "bioRxiv (preprint, forthcoming)"
+  journal: "Preprint (forthcoming)"
   notes: "DOI added on posting."

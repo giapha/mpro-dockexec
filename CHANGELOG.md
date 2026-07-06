@@ -12,6 +12,6 @@ All notable changes to Mpro-DockExec are recorded here. Versions follow the Zeno
 - Copyright firewall: publisher full texts excluded; evidence spans stripped from public tables.
 
 ### Pending
-- bioRxiv preprint link + DOI (added on posting).
+- Preprint link + DOI (OSF/arXiv; added on posting).
 - Zenodo concept DOI (minted on first archived release).
 - Human-verification pass on span-parsed search boxes (documented limitation).

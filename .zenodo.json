@@ -19,5 +19,5 @@
     { "name": "Wang, Eric", "affiliation": "NewScience Lab" },
     { "name": "Nguyen, Cris", "affiliation": "NewScience Lab" }
   ],
-  "notes": "Companion dataset and code for the bioRxiv preprint 'Most open-access Mpro docking papers are not directly re-executable' (forthcoming)."
+  "notes": "Companion dataset and code for the preprint 'Measuring the re-executability of a computational claim: a deterministic reporting standard and a noise-calibrated re-execution protocol for molecular docking' (forthcoming)."
 }
