@@ -5,18 +5,7 @@ C0003,P0006,E3,6LU7,dihydroergotamine,-9.9,-9.944,0.044,1,1,docked,pubchem:cid:1
 C0004,P0006,E3,6LU7,N-1H-indazol-5-yl-2-(6-methylpyridin-2-yl)quinazolin-4-amine,-9.8,-9.663,0.137,1,1,docked,pubchem:cid:9998128,span_parsed,reported,AutoDock Vina v1.2.7
 C0005,P0006,E3,6LU7,ergotamine,-9.7,-10.036,0.336,1,1,docked,pubchem:cid:8223,span_parsed,reported,AutoDock Vina v1.2.7
 C0006,P0006,E3,6LU7,antrafenine,-9.4,-9.437,0.037,1,1,docked,pubchem:cid:68723,span_parsed,reported,AutoDock Vina v1.2.7
-C0007,P0009,E2,6yb7,Savinin,-8.864,,,,,needs_prepped_receptor:6yb7,pubchem:cid:5281867,span_parsed,default_25,AutoDock Vina v1.2.7
-C0008,P0009,E2,6yb7,Betulinic acid,-8.644,,,,,needs_prepped_receptor:6yb7,pubchem:cid:64971,span_parsed,default_25,AutoDock Vina v1.2.7
-C0009,P0009,E2,6yb7,Curcumin,-8.373,,,,,needs_prepped_receptor:6yb7,pubchem:cid:969516,span_parsed,default_25,AutoDock Vina v1.2.7
-C0010,P0009,E2,6yb7,Curcumin,-8.554,,,,,needs_prepped_receptor:6yb7,pubchem:cid:969516,span_parsed,default_25,AutoDock Vina v1.2.7
-C0011,P0009,E2,6yb7,Betulinic acid,-8.548,,,,,needs_prepped_receptor:6yb7,pubchem:cid:64971,span_parsed,default_25,AutoDock Vina v1.2.7
-C0012,P0009,E2,6yb7,Savinin,-8.518,,,,,needs_prepped_receptor:6yb7,pubchem:cid:5281867,span_parsed,default_25,AutoDock Vina v1.2.7
 C0013,P0009,E2,6yb7,N3,-8.636,,,,,smiles_unresolved,uncached,span_parsed,default_25,AutoDock Vina v1.2.7
-C0014,P0009,E2,6yb7,Remdesivir,-8.894,,,,,needs_prepped_receptor:6yb7,pubchem:cid:121304016,span_parsed,default_25,AutoDock Vina v1.2.7
-C0015,P0009,E2,6yb7,Darunavir,-8.399,,,,,needs_prepped_receptor:6yb7,pubchem:cid:213039,span_parsed,default_25,AutoDock Vina v1.2.7
-C0016,P0009,E2,6yb7,ML188,-8.883,,,,,needs_prepped_receptor:6yb7,pubchem:cid:46897844,span_parsed,default_25,AutoDock Vina v1.2.7
-C0017,P0009,E2,6yb7,Nirmatrelvir,-7.793,,,,,needs_prepped_receptor:6yb7,pubchem:cid:155903259,span_parsed,default_25,AutoDock Vina v1.2.7
-C0018,P0009,E2,6yb7,Nirmatrelvir,-8.404,,,,,needs_prepped_receptor:6yb7,pubchem:cid:155903259,span_parsed,default_25,AutoDock Vina v1.2.7
 C0064,P0047,E2,5R7Y,Panicutine,-7.4,,,,,dock_failed_no_pose,pubchem:cid:44566630,span_parsed,reported_capped,AutoDock Vina v1.2.7
 C0065,P0047,E2,5R7Y,Vilmorrianone,-7.0,,,,,dock_failed_no_pose,pubchem:cid:44566629,span_parsed,reported_capped,AutoDock Vina v1.2.7
 C0066,P0047,E2,5R7Y,Denudatine,-6.0,,,,,dock_failed_no_pose,pubchem:cid:161515,span_parsed,reported_capped,AutoDock Vina v1.2.7
@@ -64,3 +53,14 @@ C0225,P0023,E2,6LU7,Inhibitor N3 (native co-crystallized ligand),-7.0,,,,,smiles
 C0226,P0023,E2,6LU7,Teicoplanin A3-1,-6.9,,,,,dock_failed_no_pose,pubchem:cid:16152170,span_parsed,default_25,AutoDock Vina v1.2.7
 C0227,P0023,E2,6LU7,Vancomycin,-6.3,,,,,dock_failed_no_pose,pubchem:cid:14969,span_parsed,default_25,AutoDock Vina v1.2.7
 C0228,P0023,E2,6LU7,Teicoplanin,-6.1,,,,,dock_failed_no_pose,pubchem:cid:133065662,span_parsed,default_25,AutoDock Vina v1.2.7
+C0007,P0009,E2,6yb7,Savinin,-8.864,-8.073,0.791,1,1,docked,pubchem:cid:5281867,span_parsed,default_25,AutoDock Vina v1.2.7
+C0008,P0009,E2,6yb7,Betulinic acid,-8.644,-7.769,0.875,1,1,docked,pubchem:cid:64971,span_parsed,default_25,AutoDock Vina v1.2.7
+C0009,P0009,E2,6yb7,Curcumin,-8.373,-6.907,1.466,0,1,docked,pubchem:cid:969516,span_parsed,default_25,AutoDock Vina v1.2.7
+C0010,P0009,E2,6yb7,Curcumin,-8.554,-6.907,1.647,0,1,docked,pubchem:cid:969516,span_parsed,default_25,AutoDock Vina v1.2.7
+C0011,P0009,E2,6yb7,Betulinic acid,-8.548,-7.769,0.779,1,1,docked,pubchem:cid:64971,span_parsed,default_25,AutoDock Vina v1.2.7
+C0012,P0009,E2,6yb7,Savinin,-8.518,-8.073,0.445,1,1,docked,pubchem:cid:5281867,span_parsed,default_25,AutoDock Vina v1.2.7
+C0014,P0009,E2,6yb7,Remdesivir,-8.894,-7.12,1.774,0,1,docked,pubchem:cid:121304016,span_parsed,default_25,AutoDock Vina v1.2.7
+C0015,P0009,E2,6yb7,Darunavir,-8.399,-7.385,1.014,0,1,docked,pubchem:cid:213039,span_parsed,default_25,AutoDock Vina v1.2.7
+C0016,P0009,E2,6yb7,ML188,-8.883,-6.645,2.238,0,0,docked,pubchem:cid:46897844,span_parsed,default_25,AutoDock Vina v1.2.7
+C0017,P0009,E2,6yb7,Nirmatrelvir,-7.793,-7.468,0.325,1,1,docked,pubchem:cid:155903259,span_parsed,default_25,AutoDock Vina v1.2.7
+C0018,P0009,E2,6yb7,Nirmatrelvir,-8.404,-7.468,0.936,1,1,docked,pubchem:cid:155903259,span_parsed,default_25,AutoDock Vina v1.2.7

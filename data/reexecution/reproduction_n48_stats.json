@@ -1,0 +1,39 @@
+{
+ "n_qc": 48,
+ "ALL_median": 0.785,
+ "ALL_within2": "39/48",
+ "real_n": 12,
+ "real_median": 0.327,
+ "real_within2": "11/12",
+ "default_n": 36,
+ "default_median": 0.905,
+ "default_within2": "28/36",
+ "box_MWU_p": 0.0244,
+ "withinE2_real_n": 6,
+ "withinE2_real_med": 0.327,
+ "withinE2_def_n": 36,
+ "withinE2_def_med": 0.905,
+ "withinE2_MWU_p": 0.1505,
+ "E3_n": 6,
+ "E3_median": 0.237,
+ "E2_n": 42,
+ "E2_median": 0.833,
+ "E3vsE2_MWU_p": 0.0731,
+ "noise_median": 0.04,
+ "noise_max": 0.38,
+ "tau": 2.0,
+ "box_dist": {
+  "reported": 5,
+  "default_25": 36,
+  "reported_capped": 7
+ },
+ "target_dist": {
+  "6LU7": 35,
+  "6Y2E": 2,
+  "6yb7": 11
+ },
+ "E3_papers": [
+  "P0006",
+  "P0053"
+ ]
+}

@@ -51,7 +51,7 @@ mamba env create -f environment.yml && mamba activate dock
 python code/relock_rule_rerate.py            # -> E1 47.9 / E2 44.1 / E3 8.1 / E4 0
 
 # 3. Recompute the re-execution statistics from the locked outcomes
-python code/runner/recompute_v2.py           # -> median |Δ| 0.54, 29/37 within 2.0; E3 0.24 vs E2 0.59
+python code/runner/recompute_v2.py           # -> n=48: all median 0.79 (39/48 within 2.0); box real 0.33 vs default 0.91 (p=0.024)
 ```
 
 Re-running the docking itself (optional, GPU/CPU-heavy) uses `code/runner/` — see [`docs/REPRODUCE.md`](docs/REPRODUCE.md).
