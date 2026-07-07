@@ -11,6 +11,10 @@ All notable changes to Mpro-DockExec are recorded here. Versions follow the Zeno
 - Datasheet, data dictionary, CITATION.cff, Zenodo metadata.
 - Copyright firewall: publisher full texts excluded; evidence spans stripped from public tables.
 
+### v0.1.1 — 2026-07-07 (re-execution powered + reframed)
+- Re-execution extended to **48** QC'd claims (3 targets). Headline is **box-size availability**: reported box 0.33 vs defaulted 0.91, significant (Mann–Whitney p = 0.024).
+- Executability label reframed as an **executability gate** (which claims can be re-executed at all), not a reproducibility predictor; re-execution demoted to a bounded proof of concept. Figure re-rendered by box availability.
+
 ### Pending
 - Preprint link + DOI (OSF/arXiv; added on posting).
 - Zenodo concept DOI (minted on first archived release).
